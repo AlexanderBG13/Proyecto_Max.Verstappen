@@ -24,6 +24,7 @@ padding: 0px;
 nav{
 text-align: center;
 background-color: #121F45;
+border: 1px white solid;
 }
 
 nav ul{
@@ -48,9 +49,16 @@ nav ul li:hover{
 
 .Noticia1{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-items: flex-end;
     background-color: #121F45;
+}
+
+.Noticia1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .Noticia1 p{
@@ -61,6 +69,7 @@ nav ul li:hover{
     color: red;
     padding-right: 200px;
     background-color: #121F45;
+    border-bottom: 1px white solid;
 }
 
 .victorias{
@@ -89,7 +98,7 @@ justify-content: center;
 
 .Historia{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     background-color: #121F45;
 }
 
