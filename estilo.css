@@ -59,19 +59,19 @@ nav ul li:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
+    background: url() no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 
 .Noticia1 p{
     color: white;
 }
-.dominio h2{
-    text-align: right;
-    color: red;
-    padding-right: 200px;
-    background-color: #121F45;
-    border-bottom: 1px white solid;
-}
 
+.Noticia1 h2{
+    color: red;
+}
 .victorias{
 text-align: center;
 background-color: #121F45;
